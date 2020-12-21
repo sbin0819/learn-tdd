@@ -1,0 +1,12 @@
+{
+  "include": ["jest/**/*.ts"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "rootDir": "jest",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
